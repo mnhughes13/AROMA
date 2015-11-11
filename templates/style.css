@@ -12,6 +12,10 @@ h3 {
 	Color: green;
 	}
 
+img {
+	width: 30% ;
+	Padding: 2em ;
+	}
 div, section, main, aside, header, footer, nav, {
   border: 1px solid lightgray;
   padding: .5em;
