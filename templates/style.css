@@ -1,12 +1,17 @@
 body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
-}
+	max-width: 1000px;
+	padding: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+	}
 
 h2 {
 	Color: green;
-}
+	}
+
+h3 {
+	Color: green;
+	}
+
 div, section, main, aside, header, footer, nav, {
   border: 1px solid lightgray;
   padding: .5em;
