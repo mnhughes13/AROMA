@@ -27,13 +27,31 @@ p {
 	color: rgb(88, 89, 91);
 }
 
-.parallax {
+.parallax1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 200%;
   background-position: 25% 0;
   position: relative;
-  background-image: url("bg_edited1.jpg");	
+  background-image: url("beans.jpg");
+}
+
+.parallax2 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 200%;
+  background-position: 10% 0;
+  position: relative;
+  background-image: url("event.jpg");
+}
+
+.parallax3 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 175%;
+  background-position: 30% 0;
+  position: relative;
+  background-image: url("menu.jpg");
 }
 
 .container {
@@ -55,7 +73,7 @@ p {
 
 @media screen and (min-width: 1680px) {
 	.container {
-		height: 90vh; 
+		height: 90vh;
 	}
 }
 
@@ -95,7 +113,7 @@ nav a {
 
 main {
 	text-align: center;
-	margin: 0 auto; 
+	margin: 0 auto;
 	max-width: 1024px;
 	padding: 2em;
 }
@@ -124,4 +142,13 @@ footer {
 
 ul {
 	list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.coffee, .espresso {
+		width: 50%;
+		float: left;
+    text-align: center;
+    margin-bottom: 50px;
+	}
 }
