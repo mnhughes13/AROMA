@@ -53,9 +53,13 @@ p {
 .container {
   max-width: 100vw;
   height: 450px;
+  display: -webkit-flex;
   display: flex;
+  -webkit-align-items: center;
   align-items: center;
+  -webkit-justify-content: center;
   justify-content: center;
+  
 }
 
 @media screen and (min-width: 1024px) {
