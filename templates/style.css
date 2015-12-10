@@ -93,7 +93,7 @@ p {
 
 table {
 	margin: 0 auto;
-	width: 90%;
+	width: 70%;
 	border-color: pink;
 	border-style: solid;
 }
@@ -105,7 +105,7 @@ td {
 	padding-bottom: .5em;
 	padding-left: .5em;
 	padding-right: .5em;
-	width: 30%;
+	width: 80%;
 }
 
 tr {
