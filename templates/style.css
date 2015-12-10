@@ -5,6 +5,10 @@ a href {
 
 aside {
 	background-color: rgb(212, 209, 193);
+	color: white;
+	margin: 0 auto;
+	padding: 4em;
+	text-align:center;
 }
 
 body {
