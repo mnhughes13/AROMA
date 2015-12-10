@@ -177,6 +177,13 @@ ul {
 
 -------------------------------------------------------
 
+.flavors {
+	text-align: center;
+	color: pink;
+	font-size: .5em;
+	margin: 0 auto;
+}
+
 .container {
   max-width: 100vw;
   height: 450px;
