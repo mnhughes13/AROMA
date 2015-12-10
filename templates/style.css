@@ -100,7 +100,7 @@ p {
 table {
 	border-color: pink;
 	border-style: double;
-	color: rgb(212, 209, 193);
+	background-color: rgb(212, 209, 193);
 	margin: 0 auto;
 	width: 60%;
 }
