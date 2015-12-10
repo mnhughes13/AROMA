@@ -176,6 +176,8 @@ main {
 
 footer {
 	text-align: center;
+	max-width: 1024px;
+	margin: 0 auto;
 	background-color: pink;
 }
 
@@ -184,12 +186,6 @@ footer {
 		width: 50%;
 		float: left;
 	}
-
-	footer {
-		max-width: 1024px;
-		margin: 0 auto;
-	}
-}
 
 ul {
 	list-style: none;
