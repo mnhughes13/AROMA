@@ -17,6 +17,10 @@ body {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
+div "coffee" {
+	background-color: pink;
+}
+
 footer {
 	text-align: center;
 	max-width: 1024px;
