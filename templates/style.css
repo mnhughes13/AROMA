@@ -98,11 +98,11 @@ p {
 }
 
 table {
-	border-color: pink; --!>
+	border-color: pink;
 	border-style: double;
 	color: rgb(212, 209, 193);
 	margin: 0 auto;
-	width: 70%;
+	width: 60%;
 }
 
 td {
@@ -113,7 +113,7 @@ td {
 	padding-bottom: .5em;
 	padding-left: .5em;
 	padding-right: .5em;
-	width: 40%;
+	width: 20%;
 }
 
 tr {
