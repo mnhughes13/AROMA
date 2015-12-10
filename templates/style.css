@@ -17,9 +17,6 @@ body {
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-div "coffee" {
-	background-color: pink;
-}
 
 footer {
 	text-align: center;
@@ -102,8 +99,13 @@ table {
 }
 
 td {
-	width: 50%;
 	margin: 0 auto;
+	margin: 0 auto;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+	padding-right: .5em;
+	width: 30%;
 }
 
 tr {
