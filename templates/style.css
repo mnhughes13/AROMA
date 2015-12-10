@@ -39,6 +39,14 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: black;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
 h4 {
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-size: 1em;
