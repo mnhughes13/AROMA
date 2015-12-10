@@ -105,7 +105,7 @@ tr {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -176,6 +176,7 @@ main {
 
 footer {
 	text-align: center;
+	background-color: pink;
 }
 
 @media screen and (min-width: 1024px) {
