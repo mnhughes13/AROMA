@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
+
 
 a href {
 	font-size: 2em;
@@ -11,9 +13,13 @@ aside {
 	text-align:center;
 }
 
+aside li {
+	color: white;
+}
+
 body {
-  max-width: 100vw;
-  margin: 0;
+	max-width: 100vw;
+	margin: 0;
   font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
@@ -60,15 +66,13 @@ body {
 	max-width: 1200px;
 }
 
-.espresso, .coffee, .baked {
-	float:left;
-	width: 33.33333%;
-}
 footer {
 	text-align: center;
-	max-width: 1024px;
 	margin: 0 auto;
 	background-color: #58595B;
+	clear: left;
+	float: left;
+	width: 100%;
 }
 
 h1 {
@@ -102,9 +106,8 @@ h4 {
 }
 
 .holiday, .study, .tastings {
-  float: left;
-  width: 33.33%;
   text-align: center;
+	margin-bottom: 10%;
 }
 
 li {
@@ -129,6 +132,7 @@ main {
 	padding-bottom: .5em;
 	text-align: center;
 }
+
 nav {
 	text-align: center;
 	font-family: 'Open Sans', Helvetica, sans-serif;
@@ -142,7 +146,7 @@ nav a {
 	color: white;
 	text-decoration: none;
 	color: white;
-	font-size: .5em;
+	font-size: 1em;
 	padding:.75%;
 }
 
@@ -214,52 +218,69 @@ ul {
 	list-style: none;
 }
 
--------------------------------------------
+@media screen and (min-width: 1024px) and (max-width: 1680px){
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
-
-@media screen and (min-width: 1024px) {
-	table {
-		width: 20%;
-	}
-}
-
-@media screen and (min-width: 1024px) {
 	.container {
 		height: 700px;
 	}
+
+	.espresso, .coffee, .baked {
+		float:left;
+		width: 33.33333%;
+	}
+
+	.holiday, .study, .tastings {
+	  float: left;
+	  width: 33.33%;
+		text-align: center;
+	}
+
+	.hours, .locations {
+		width: 50%;
+		float: left;
+	}
+
+	main p {
+		font-size: 1.25em;
+	}
+
+	nav a {
+		font-size: 2em;
+	}
+
 	.parallax {
 		background-size: 100%;
 	}
+
+	table {
+		align-content: center;
+	  margin: 0 auto;
+		width: 80%;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	td {
+		color:white;
+		margin: 0 auto;
+		margin: 0 auto;
+		padding-top: .5em;
+		padding-bottom: .5em;
+		padding-left: 1em;
+		padding-right: 1em;
+		width: 90%;
+	}
+
 }
 
 @media screen and (min-width: 1680px) {
 	.container {
 		height: 90vh;
 	}
-}
 
-@media screen and (min-width: 1024px) {
-	nav a {
-		font-size: 2em;
-	}
-}
-
-@media screen and (min-width: 1680px) {
 	nav a {
 		font-size: 2.5em;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	main p {
-		font-size: 1.25em;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	.hours, .locations {
-		width: 50%;
-		float: left;
 	}
 }
