@@ -218,7 +218,7 @@ ul {
 	list-style: none;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1680px){
+@media screen and (min-width: 1024px) {
 
 	.container {
 		height: 700px;
