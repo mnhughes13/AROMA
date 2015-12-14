@@ -13,6 +13,10 @@ a href {
 	font-size: 2em;
 }
 
+address {
+	margin: 0 auto;
+	text-align: center;
+}
 aside {
 	background-image: url(awards.jpg);
 	color: white;
@@ -76,9 +80,19 @@ body {
 	max-width: 1200px;
 }
 
+dd {
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+}
+
 footer {
 	text-align: center;
+	color: white;
 	margin: 0 auto;
+	margin-top: 2em;
+	padding-top: 1.5em;
+	padding-bottom: 2.5em;
 	background-color: #58595B;
 	clear: left;
 	float: left;
@@ -118,6 +132,15 @@ h4 {
 .holiday, .study, .tastings {
   text-align: center;
 	margin-bottom: 10%;
+}
+
+.hours, .kent, .columbus {
+		padding-top:.75em;
+	}
+
+.hours p {
+	color:white;
+	padding-bottom:2em;
 }
 
 li {
@@ -169,15 +192,16 @@ p {
 	color: rgb(88, 89, 91);
 	font-size: 1em;
 	text-align: center;
+	padding:1em;
 }
 
 .parallax1 {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 200%;
+  background-size: 300%;
   background-position: 25% 0;
   position: relative;
-  background-image: url("beans.jpg");
+  background-image: url("beans_edited.jpg");
 }
 
 .parallax2 {
@@ -192,10 +216,10 @@ p {
 .parallax3 {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 175%;
-  background-position: 30% 0;
+  background-size: 200%;
+  background-position: 90% 0;
   position: relative;
-  background-image: url("menu.jpg");
+  background-image: url("cappuccino.jpg");
 }
 
 table {
@@ -211,7 +235,6 @@ table {
 
 td {
 	color:white;
-	margin: 0 auto;
 	margin: 0 auto;
 	padding-top: .5em;
 	padding-bottom: .5em;
@@ -236,6 +259,19 @@ ul {
 	list-style: none;
 }
 
+@media screen and (min-width: 600px) {
+
+	.parallax1 {
+		background-size: 200%;
+		background-position: 25% 0;
+	}
+
+	.parallax3 {
+		background-size: 100%;
+		background-position: 90% 0;
+	}
+}
+
 @media screen and (min-width: 1024px) {
 
 	.container {
@@ -247,14 +283,19 @@ ul {
 		width: 33.33333%;
 	}
 
+	.espresso td, .coffee td {
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+
 	.holiday, .study, .tastings {
 	  float: left;
 	  width: 33.33%;
 		text-align: center;
 	}
 
-	.hours, .locations {
-		width: 50%;
+	.hours, .kent, .columbus {
+		width: 33.33%;
 		float: left;
 	}
 
@@ -268,27 +309,6 @@ ul {
 
 	.parallax {
 		background-size: 100%;
-	}
-
-	table {
-		align-content: center;
-	  margin: 0 auto;
-		width: 80%;
-		padding-top: 1em;
-		padding-bottom: 1em;
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-
-	td {
-		color:white;
-		margin: 0 auto;
-		margin: 0 auto;
-		padding-top: .5em;
-		padding-bottom: .5em;
-		padding-left: 1em;
-		padding-right: 1em;
-		width: 90%;
 	}
 
 }
