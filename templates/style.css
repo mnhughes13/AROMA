@@ -20,7 +20,7 @@ address {
 }
 aside {
 	background-image: url(awards_edited3.jpg);
-	background-size: 145%;
+	background-size: 160%;
   background-position: 100% 0;
 	color: #58595B;
 	margin: 0 auto;
@@ -157,7 +157,7 @@ h4 {
 }
 
 li {
-	text-align: center;
+	text-align:center;
 	color: black;
 	font-size: 1.2em;
 	margin: 0 auto;
@@ -254,6 +254,8 @@ table {
 	background-color: rgb(212, 209, 193);
 	align-content: center;
   margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 6em;
 	width: 80%;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -285,6 +287,11 @@ ul {
 
 @media screen and (min-width: 600px) {
 
+	aside {
+		background-size: 100%;
+		background-position: 70% 0;
+	}
+
 	.parallax1 {
 		background-size: 200%;
 		background-position: 25% 0;
@@ -297,6 +304,11 @@ ul {
 }
 
 @media screen and (min-width: 1024px) {
+
+	aside {
+		background-size: 180%;
+	  background-position: 75% 0;
+	}
 
 	.container {
 		height: 700px;
