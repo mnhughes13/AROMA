@@ -122,7 +122,6 @@ div.swatchpalegreen {
 	margin: 1em;
 }
 
-<<<<<<< HEAD
 div.swatchgold {
 	margin-top:4em;
 	background-color:#eecc40;
@@ -132,10 +131,7 @@ div.swatchgold {
 	margin: 1em;
 }
 
-.eventstitle {
-=======
 .eventstitle, .menutitle {
->>>>>>> origin/gh-pages
 	text-align:center;
 	letter-spacing: .01em;
 	margin: 0 auto;
