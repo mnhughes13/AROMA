@@ -6,7 +6,8 @@ a {
 }
 
 a:hover {
-	color: rgb(212, 209, 193);
+	font-weight:normal;
+	font-style:normal;
 }
 
 a href {
@@ -90,7 +91,6 @@ footer {
 	text-align: center;
 	color: white;
 	margin: 0 auto;
-	margin-top: 2em;
 	padding-top: 1.5em;
 	padding-bottom: 2.5em;
 	background-color: #58595B;
@@ -101,7 +101,7 @@ footer {
 
 h1 {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-size: 1.75em;
+	font-size: 2em;
 	color: rgb(212, 209, 193);
 	text-align: center;
 }
@@ -154,7 +154,11 @@ main {
 	text-align: center;
 	margin: 0 auto;
 	max-width: 1024px;
-	padding: 2em;
+	padding-top: 2em;
+	padding-bottom: 2.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+
 }
 
 .menuhead{
@@ -168,23 +172,29 @@ main {
 
 nav {
 	text-align: center;
+	 margin: 0 auto;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	color: white;
-	padding-top: 2em;
 	position: absolute;
 	width: 100%;
+	font-size: .8em;
+	font-weight:lighter;
+	background-color: white;
+	padding-top: 1.25em;
+	padding-bottom:1.125em;
 }
 
 nav a {
-	color: white;
+	color: #58595B;
 	text-decoration: none;
-	color: white;
-	font-size: 1.5em;
+	font-size: .25em;
 	padding:.75%;
+	padding-left: 1em;
+	padding-right:1em;
 }
 
 nav a:hover {
-	color: rgb(212, 209, 193);
+	color: #58595B;
 }
 
 p {
@@ -192,7 +202,10 @@ p {
 	color: rgb(88, 89, 91);
 	font-size: 1em;
 	text-align: center;
-	padding:1em;
+	padding-top:.25em;
+	padding-bottom: :1em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .parallax1 {
