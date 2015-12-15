@@ -194,7 +194,12 @@ nav a {
 }
 
 nav a:hover {
+<<<<<<< HEAD
 	color: #58595B;
+=======
+	font-weight: bold;
+	color: white;
+>>>>>>> origin/gh-pages
 }
 
 p {
@@ -257,11 +262,7 @@ td {
 }
 
 .timeline {
-	background-color: #f8f8f8;
-}
-
-.timelinelogo {
-	max-width: 75%;
+	background-color: white;
 }
 
 tr {
