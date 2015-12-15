@@ -100,6 +100,25 @@ dd {
 	text-align: center;
 }
 
+
+div.swatchgrey {
+	margin-top:4em;
+	background-color: #58595B;
+	display: inline-block;
+  width: 125px;
+  height: 125px;
+  margin: 1em;
+}
+
+div.swatchpalegreen {
+	margin-top:4em;
+	background-color: #D4D1C1;
+	display:inline-block;
+	width: 125px;
+	height: 125px;
+	margin: 1em;
+}
+
 .eventstitle {
 	text-align:center;
 	letter-spacing: .01em;
@@ -138,10 +157,12 @@ h2 {
 
 h3 {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	color: black;
+	color:  #58595B;
 	text-align: center;
+	margin: 0 auto;
 	padding-top: 2em;
-	padding-bottom: 1em;
+	padding-bottom: .25em;
+	font-size: 1.75em;
 }
 
 h4 {
@@ -181,7 +202,15 @@ main {
 	padding-bottom: 4.25em;
 	padding-left: 2em;
 	padding-right: 2em;
+	color: #58595B;
+}
 
+.main h1{
+	font-size: 2.75em;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	padding-top:1em;
 }
 
 .menutitle {
@@ -232,9 +261,20 @@ nav a:hover {
 
 }
 
+.opens !important{
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 4em!important;
+	padding-bottom: .3em;
+	margin: 0 auto;
+	text-align:left;
+	color: #58595B!important;
+	display: block;
+	padding-top: 2em;
+}
+
 p {
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	color: rgb(88, 89, 91);
+	color: #58595B;
 	font-size: 1em;
 	text-align: center;
 	padding-top:.25em;
@@ -280,6 +320,32 @@ p {
 
 .patternhead {
 	background-color:#D4D1C1;
+}
+
+.patternhead2{
+	font-size: 2.75em;
+	font-weight: bolder;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	padding-top:1em;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: #58595B;
+}
+
+.rsvp {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  background: #58595B;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+	border: none;
+	margin-top: 1%;
+	margin-bottom: 5%;
 }
 
 table {
