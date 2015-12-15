@@ -19,8 +19,11 @@ address {
 	margin: 0 auto;
 	text-align: center;
 }
+
 aside {
-	background-image: url(awards_edited3.jpg);
+	background-repeat: no-repeat;
+	background-color: #eecc40;
+	/*background-image: url(awards_edited3.jpg);*/
 	background-size: 160%;
   background-position: 100% 0;
 	color: #58595B;
@@ -29,12 +32,12 @@ aside {
 	padding-left: 2em;
 	padding-bottom: 4em;
 	padding-right: 2em;
-	text-align:center;
+	text-align: center;
 }
 
 aside li {
 	color: white;
-	font-size: 2em;
+	font-size: 1.25em;
 	font-weight:lighter;
 	padding-top: .25em;
 	padding-bottom: .25em;
@@ -119,12 +122,12 @@ div.swatchpalegreen {
 	margin: 1em;
 }
 
-.eventstitle {
+.eventstitle, .menutitle {
 	text-align:center;
 	letter-spacing: .01em;
 	margin: 0 auto;
 	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-size: 13em;
+	font-size: 5em;
 	font-weight: bold;
 	color:white;
 }
@@ -211,16 +214,6 @@ main {
 	margin: 0 auto;
 	padding-bottom: 1em;
 	padding-top:1em;
-}
-
-.menutitle {
-	text-align:center;
-	letter-spacing: .01em;
-	margin: 0 auto;
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-size: 13em;
-	font-weight: bold;
-	color:white;
 }
 
 .menuhead{
@@ -390,6 +383,10 @@ ul {
 		background-position: 70% 0;
 	}
 
+	.eventstitle, .menutitle {
+		font-size: 9em;
+	}
+
 	.parallax1 {
 		background-size: 200%;
 		background-position: 25% 0;
@@ -408,6 +405,10 @@ ul {
 	  background-position: 75% 0;
 	}
 
+	aside li {
+		font-size: 1.5em;
+	}
+
 	.container {
 		height: 700px;
 	}
@@ -420,6 +421,10 @@ ul {
 	.espresso td, .coffee td {
 		padding-left: .5em;
 		padding-right: .5em;
+	}
+
+	.eventstitle, .menutitle {
+		font-size: 13em;
 	}
 
 	.holiday, .study, .tastings {
@@ -450,6 +455,10 @@ ul {
 @media screen and (min-width: 1680px) {
 	.container {
 		height: 90vh;
+	}
+
+	.eventstitle, .menutitle {
+		font-size: 18em;
 	}
 
 	nav a {
