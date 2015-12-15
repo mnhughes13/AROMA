@@ -239,7 +239,7 @@ nav {
 	color: white;
 	position: absolute;
 	width: 100%;
-	font-size: .8em;
+	font-size: .75em;
 	font-weight:lighter;
 	background-color: white;
 	padding-top: 1.5em;
@@ -249,7 +249,7 @@ nav {
 nav a {
 	color: #58595B;
 	text-decoration: none;
-	font-size: .25em;
+	font-size: 1.5em;
 	padding:.75%;
 	padding-left: 1em;
 	padding-right:1em;
