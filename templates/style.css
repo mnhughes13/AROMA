@@ -22,7 +22,7 @@ address {
 
 aside {
 	background-repeat: no-repeat;
-	background-color: #eecc40;
+	background-color: #D4D1C1;
 	/*background-image: url(awards_edited3.jpg);*/
 	background-size: 160%;
   background-position: 100% 0;
@@ -33,6 +33,8 @@ aside {
 	padding-bottom: 4em;
 	padding-right: 2em;
 	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 aside li {
@@ -41,6 +43,10 @@ aside li {
 	font-weight:lighter;
 	padding-top: .25em;
 	padding-bottom: .25em;
+}
+
+aside ul {
+	padding-left: 0;
 }
 
 .awards h1 {
@@ -243,7 +249,7 @@ nav {
 	width: 100%;
 	font-size: .75em;
 	font-weight:lighter;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.75);
 	padding-top: 1.5em;
 	padding-bottom:1.5em;
 }
