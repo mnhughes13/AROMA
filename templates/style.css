@@ -184,7 +184,8 @@ nav a {
 }
 
 nav a:hover {
-	color: rgb(212, 209, 193);
+	font-weight: bold;
+	color: white;
 }
 
 p {
@@ -244,11 +245,7 @@ td {
 }
 
 .timeline {
-	background-color: #f8f8f8;
-}
-
-.timelinelogo {
-	max-width: 75%;
+	background-color: white;
 }
 
 tr {
