@@ -194,12 +194,9 @@ nav a {
 }
 
 nav a:hover {
-<<<<<<< HEAD
 	color: #58595B;
-=======
-	font-weight: bold;
-	color: white;
->>>>>>> origin/gh-pages
+	font-weight: normal;
+
 }
 
 p {
